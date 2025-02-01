@@ -1,0 +1,10 @@
+name: "🔧 Refactor"
+description: "리팩토링"
+labels: ["refactor"]
+body:
+  - type: textarea
+    attributes:
+      label: 리팩토링 내용
+      description: 리팩토링할 내용을 적어주세요.
+    validations:
+      required: true

@@ -1,0 +1,10 @@
+name: "🚀 Deploy"
+description: "배포 설정"
+labels: ["deploy"]
+body:
+  - type: textarea
+    attributes:
+      label: 배포 내용
+      description: 배포해야 할 내용을 적어주세요.
+    validations:
+      required: true
