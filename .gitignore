@@ -43,12 +43,18 @@ public/build/
 # TypeScript
 *.tsbuildinfo
 
-# Svelte
-__sapper__/
+# SvelteKit 관련
 .svelte-kit/
+__sapper__/
 
 # Logs
 logs/
 *.log
 *.gz
 *.out
+
+# Vercel 관련
+.vercel/
+
+# Paraglide 관련 (캐시/빌드 파일)
+.paraglide/
