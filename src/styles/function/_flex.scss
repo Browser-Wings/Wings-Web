@@ -1,0 +1,32 @@
+// 세로 정렬
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+// 가로 정렬
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+// 정중앙 고정
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// 양쪽 정렬
+@mixin flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// 왼쪽 정렬
+@mixin flex-left {
+  display: flex;
+  justify-content: flex-start;
+}
+// 오른쪽 정렬
+@mixin flex-right {
+  display: flex;
+  justify-content: flex-end;
+}

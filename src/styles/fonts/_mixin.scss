@@ -1,0 +1,55 @@
+// 폰트에서 공통으로 사용되는 굵기입니다
+@mixin Bold {
+  font-family: "Pretendard-Bold";
+}
+
+@mixin Medium {
+  font-family: "Pretendard-Medium";
+}
+
+@mixin Regular {
+  font-family: "Pretendard-Regular";
+}
+
+// 공통 텍스트 스타일을 함수화
+@mixin typography($size) {
+  font-size: $size;
+  line-height: 130%;
+}
+
+// 텍스트 스타일 믹스인
+@mixin Display1 {
+  @include typography(36px);
+}
+
+@mixin Display2 {
+  @include typography(32px);
+}
+
+@mixin Title1 {
+  @include typography(28px);
+}
+
+@mixin Title2 {
+  @include typography(24px);
+}
+
+@mixin HeadLine1 {
+  @include typography(20px);
+}
+
+@mixin HeadLine2 {
+  @include typography(18px);
+}
+
+@mixin Body {
+  @include typography(16px);
+}
+
+@mixin Label {
+  @include typography(14px);
+}
+
+@mixin Caption {
+  @include typography(12px);
+}

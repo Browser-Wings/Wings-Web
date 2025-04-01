@@ -1,0 +1,9 @@
+@use "./radius.scss" as *;
+
+:root {
+  --Shape-ExtraLarge: #{$Shape-ExtraLarge};
+  --Shape-Large: #{$Shape-Large};
+  --Shape-Medium: #{$Shape-Medium};
+  --Shape-Small: #{$Shape-Small};
+  --Shape-ExtraSmall: #{$Shape-ExtraSmall};
+}

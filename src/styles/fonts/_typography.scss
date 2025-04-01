@@ -1,0 +1,144 @@
+@use "mixin" as *;
+
+// Display1
+@mixin Display1-Bold {
+  @include Display1;
+  @include Bold;
+}
+
+@mixin Display1-Medium {
+  @include Display1;
+  @include Medium;
+}
+
+@mixin Display1-Regular {
+  @include Display1;
+  @include Regular;
+}
+
+// Display2
+@mixin Display2-Bold {
+  @include Display2;
+  @include Bold;
+}
+
+@mixin Display2-Medium {
+  @include Display2;
+  @include Medium;
+}
+
+@mixin Display2-Regular {
+  @include Display2;
+  @include Regular;
+}
+
+// Title1
+@mixin Title1-Bold {
+  @include Title1;
+  @include Bold;
+}
+
+@mixin Title1-Medium {
+  @include Title1;
+  @include Medium;
+}
+
+@mixin Title1-Regular {
+  @include Title1;
+  @include Regular;
+}
+// Title1
+@mixin Title2-Bold {
+  @include Title2;
+  @include Bold;
+}
+
+@mixin Title2-Medium {
+  @include Title2;
+  @include Medium;
+}
+
+@mixin Title2-Regular {
+  @include Title2;
+  @include Regular;
+}
+
+// HeadLine1
+@mixin HeadLine1-Bold {
+  @include HeadLine1;
+  @include Bold;
+}
+
+@mixin HeadLine1-Medium {
+  @include HeadLine1;
+  @include Medium;
+}
+
+@mixin HeadLine1-Regular {
+  @include HeadLine1;
+  @include Regular;
+}
+
+// HeadLine2
+@mixin HeadLine2-Bold {
+  @include HeadLine2;
+  @include Bold;
+}
+
+@mixin HeadLine2-Medium {
+  @include HeadLine2;
+  @include Medium;
+}
+
+@mixin HeadLine2-Regular {
+  @include HeadLine2;
+  @include Regular;
+}
+
+// Body
+@mixin Body-Bold {
+  @include Body;
+  @include Bold;
+}
+
+@mixin Body-Medium {
+  @include Body;
+  @include Medium;
+}
+
+@mixin Body-Regular {
+  @include Body;
+  @include Regular;
+}
+
+// Label
+@mixin Label-Bold {
+  @include Label;
+  @include Bold;
+}
+
+@mixin Label-Medium {
+  @include Label;
+  @include Medium;
+}
+
+@mixin Label-Regular {
+  @include Label;
+  @include Regular;
+}
+
+// Caption
+@mixin Caption-Bold {
+  @include Caption;
+  @include Bold;
+}
+
+@mixin Caption-Medium {
+  @include Caption;
+  @include Medium;
+}
+
+@mixin Caption-Regular {
+  @include Caption;
+  @include Regular;
+}
